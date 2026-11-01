@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>It 119 Spa da Beleza | Monte o seu ritual de bem-estar</title>
 <meta name="description" content="Cabelo e maquiagem, massagem, reflexologia, banho com sais, auriculoterapia, limpeza de pele e SPA DAY. Monte o seu ritual e peça pelo WhatsApp.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23000' stroke='%23c9a24f' stroke-width='4'/%3E%3Ctext x='32' y='41' font-size='26' text-anchor='middle' fill='%23f0d9a0' font-family='serif'%3EIT%3C/text%3E%3C/svg%3E">
+<meta property="og:title" content="It 119 Spa da Beleza | Jaguariúna-SP"><meta property="og:description" content="Salão, spa day, terapias de bem-estar e Dia da Noiva. Agende pelo WhatsApp."><meta property="og:type" content="website"><meta name="theme-color" content="#c9a24f">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BeautySalon","name":"It 119 Spa da Beleza","telephone":"+55 19 98722-0119","address":{"@type":"PostalAddress","streetAddress":"R. Tassinari, 119 - Jardim Dona Luiza","addressLocality":"Jaguariúna","addressRegion":"SP","postalCode":"13912-682","addressCountry":"BR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"19:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"17:30"}],"sameAs":["https://www.instagram.com/it119spadabeleza"]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -85,6 +88,60 @@ footer{background:var(--tinta);text-align:center;padding:26px;color:#cdb98e;font
 .flut svg{width:24px;height:24px}
 @keyframes pulsa{0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,.6),0 12px 34px rgba(0,0,0,.3)}60%{box-shadow:0 0 0 18px rgba(37,211,102,0),0 12px 34px rgba(0,0,0,.3)}}
 .troca-sai{opacity:0;transform:translateY(.25em);filter:blur(6px)}#troca{display:inline-block;transition:.35s}
+html{scroll-padding-top:78px}
+.rv{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s}.rv.in{opacity:1;transform:none}
+#prog{position:absolute;left:0;bottom:-1px;height:3px;width:0;background:linear-gradient(90deg,var(--ouro),#f0d9a0)}
+#menu{display:flex;gap:24px}#menu a{text-decoration:none;font-size:.93rem;color:var(--mudo);transition:.2s}#menu a:hover{color:var(--ouro-esc)}
+.burger{display:none;background:none;border:1.5px solid var(--ouro);border-radius:12px;width:44px;height:44px;font-size:1.4rem;color:var(--ouro-esc);cursor:pointer}
+.tag{display:inline-block;font:600 .8rem Jost;letter-spacing:.18em;text-transform:uppercase;color:var(--ouro-esc);margin-bottom:14px}
+.stats{background:var(--tinta);color:#fff;padding:38px 0}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;text-align:center}
+.stats strong{display:block;font:600 2.7rem/1.1 "Cormorant Garamond";color:var(--ouro2)}.stats span{font-size:.9rem;color:#cdb98e}
+.sobre .wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:center}
+.sobre .foto{position:relative}.sobre .foto img{border-radius:999px 999px 24px 24px;aspect-ratio:3/4;object-fit:cover;width:100%;box-shadow:0 40px 70px -30px rgba(156,116,37,.55)}
+.sobre .foto::before{content:"";position:absolute;inset:-14px 14px 14px -14px;border:1.5px solid var(--ouro);border-radius:999px 999px 24px 24px}
+.sobre .selo{position:absolute;right:-14px;bottom:34px;background:var(--tinta);color:var(--ouro2);border-radius:16px;padding:14px 20px;font:600 1.15rem "Cormorant Garamond";line-height:1.2;box-shadow:0 14px 30px rgba(0,0,0,.25)}
+.sobre p{color:var(--mudo);margin-top:16px;max-width:36em}
+.pontos{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:14px}
+.pontos li{padding-left:34px;position:relative}.pontos li::before{content:"";position:absolute;left:0;top:.5em;width:14px;height:14px;border-radius:50% 0 50% 0;background:var(--ouro)}
+.pontos b{font-weight:600}
+.servicos{background:var(--creme)}.topo{text-align:center;max-width:640px;margin:0 auto 50px}.topo p{color:var(--mudo);margin-top:14px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.card{background:#fff;border:1px solid var(--linha);border-radius:22px;padding:28px 24px;display:flex;flex-direction:column;gap:10px;transition:.3s}
+.card:hover{transform:translateY(-6px);border-color:var(--ouro);box-shadow:0 24px 40px -26px rgba(156,116,37,.6)}
+.card em{font:italic 600 2.2rem "Cormorant Garamond";color:var(--ouro)}
+.card h3{font-size:1.55rem}.card p{color:var(--mudo);font-size:.95rem;flex:1}
+.card .ac{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:8px;font-size:.9rem;font-weight:600}
+.card .ac a,.card .ac button{color:var(--ouro-esc);background:none;border:0;font:inherit;cursor:pointer;text-decoration:none;padding:0}
+.card .ac a:hover,.card .ac button:hover{text-decoration:underline}
+.spaday{background:var(--fundo)}.como{background:var(--creme)}
+.passos3{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.passos3 div{background:#fff;border:1px solid var(--linha);border-radius:22px;padding:34px 28px;text-align:center}
+.passos3 b{display:grid;place-items:center;width:60px;height:60px;margin:0 auto 18px;border-radius:50%;background:linear-gradient(135deg,#f3dfa6,var(--ouro));font:600 1.6rem "Cormorant Garamond"}
+.passos3 h3{font-size:1.6rem;margin-bottom:8px}.passos3 p{color:var(--mudo)}
+.noivas .wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:60px;align-items:center}
+.noivas p.l{color:var(--mudo);margin:16px 0 28px;max-width:32em}
+.tres{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:end}
+.tres img{width:100%;object-fit:cover;aspect-ratio:3/4.4;border-radius:999px 999px 18px 18px;border:1px solid var(--ouro)}.tres img:nth-child(2){aspect-ratio:3/5.2}
+.fotos{background:var(--creme)}
+.presente{padding:0 0 100px}
+.presente .caixa{background:var(--tinta);color:#fff;border-radius:32px;padding:60px;display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:center;position:relative;overflow:hidden}
+.presente .caixa::after{content:"";position:absolute;right:-60px;top:-60px;width:260px;height:260px;border-radius:50%;border:1.5px dashed rgba(201,162,79,.6)}
+.presente p{color:#d9c8a0;margin-top:12px;max-width:34em}.presente .btn{justify-self:end;position:relative;z-index:1}
+.faq .lista{max-width:780px;margin:auto}
+details{border-bottom:1px solid var(--linha);padding:20px 0}
+summary{cursor:pointer;font-weight:500;font-size:1.1rem;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}summary::after{content:"+";color:var(--ouro-esc);font-size:1.7rem;line-height:1}
+details[open] summary::after{content:"–"}details p{margin-top:12px;color:var(--mudo)}
+.insta{background:var(--creme);text-align:center}.insta p{color:var(--mudo);margin-top:12px}
+.minis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:34px 0}
+.minis a{display:block;overflow:hidden;border-radius:18px;aspect-ratio:1}.minis img{width:100%;height:100%;object-fit:cover;transition:.5s}.minis a:hover img{transform:scale(1.08)}
+.visite{background:var(--fundo)}
+footer{text-align:left;padding:60px 0 0;font-size:.95rem}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1.2fr 1.2fr;gap:36px}
+footer h4{font:600 1.3rem "Cormorant Garamond";color:var(--ouro2);margin-bottom:14px}
+footer p,footer a{color:#cdb98e;text-decoration:none;display:block;margin-bottom:8px}footer a:hover{color:#fff}footer .logo{color:#fff;margin-bottom:14px}
+.fim{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;border-top:1px solid rgba(201,162,79,.25);margin-top:44px;padding:22px 0;font-size:.85rem;color:#a99669}.fim a{display:inline;margin:0}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 @media (max-width:900px){.hero .wrap,.spaday .wrap,.visite .wrap{grid-template-columns:1fr}.lotus{max-width:290px;order:-1}.hero{padding-top:92px;min-height:auto}.spaday img{max-width:320px;aspect-ratio:1/1.1;margin:auto}.mapa{height:240px}.mural{columns:2;column-gap:12px}}
 @media (max-width:600px){
@@ -99,13 +156,33 @@ footer{background:var(--tinta);text-align:center;padding:26px;color:#cdb98e;font
   .mural{columns:2;column-gap:10px}.mural button{margin-bottom:10px;border-radius:16px}
   .lb .pv,.lb .nx{top:auto;bottom:18px}
 }
+@media (max-width:900px){
+  .burger{display:block}.nav>.btn{display:none}
+  #menu{display:none;position:absolute;left:0;right:0;top:100%;background:var(--fundo);flex-direction:column;gap:0;padding:8px 6% 18px;border-bottom:1px solid var(--linha);box-shadow:0 20px 30px -20px rgba(0,0,0,.2)}
+  .nav.open #menu{display:flex}#menu a{padding:14px 0;border-bottom:1px solid var(--linha);font-size:1rem}
+  .sobre .wrap,.noivas .wrap,.presente .caixa{grid-template-columns:1fr;gap:44px}
+  .sobre .foto{max-width:340px;margin:auto}.sobre .selo{right:-6px}
+  .cards{grid-template-columns:1fr 1fr}.passos3{grid-template-columns:1fr}
+  .stats .wrap{grid-template-columns:1fr 1fr}.fgrid{grid-template-columns:1fr 1fr}
+  .presente .caixa{padding:38px 28px}.presente .btn{justify-self:start}
+}
+@media (max-width:600px){
+  .cards{gap:12px}.card{padding:20px 16px}.card h3{font-size:1.3rem}.card p{font-size:.88rem}
+  .stats strong{font-size:2.1rem}.fgrid{grid-template-columns:1fr}
+  .minis{grid-template-columns:1fr 1fr}.presente{padding-bottom:70px}
+  .tres{gap:8px}.noivas p.l{margin-bottom:22px}.noivas .btn,.presente .btn{width:100%}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap nav">
-  <a class="logo" href="#"><b>IT<br>119</b>Spa da Beleza</a>
+<header><div class="wrap nav" id="nav">
+  <a class="logo" href="#topo"><b>IT<br>119</b>Spa da Beleza</a>
+  <nav id="menu" aria-label="Principal">
+    <a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#spaday">SPA DAY</a><a href="#noivas">Noivas</a><a href="#galeria">Galeria</a><a href="#duvidas">Dúvidas</a><a href="#visite">Contato</a>
+  </nav>
   <a class="btn" href="#" data-zap>Falar no WhatsApp</a>
-</div></header>
+  <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false">☰</button>
+</div><i id="prog"></i></header>
 
 <main>
 <section class="hero" id="topo"><div class="wrap">
@@ -134,6 +211,34 @@ footer{background:var(--tinta);text-align:center;padding:26px;color:#cdb98e;font
   </div>
 </div></section>
 
+<div class="stats"><div class="wrap">
+  <div><strong data-n="713">0</strong><span>posts de trabalhos reais</span></div>
+  <div><strong data-n="4552">0</strong><span>seguidores no Instagram</span></div>
+  <div><strong data-n="8">0</strong><span>serviços para você escolher</span></div>
+  <div><strong data-n="6">0</strong><span>cuidados no SPA DAY</span></div>
+</div></div>
+
+<section class="s sobre" id="sobre"><div class="wrap">
+  <div class="foto"><img src="/static/img/foto-04.jpg" alt="Cliente com cabelo castanho de luzes e ondas" loading="lazy"><div class="selo">Jaguariúna<br>São Paulo</div></div>
+  <div>
+    <span class="tag">Sobre nós</span>
+    <h2>Um refúgio de beleza e <span class="ouro">bem-estar</span></h2>
+    <p>O It 119 Spa da Beleza reúne salão de beleza, terapias de bem-estar, spa day e o especial Dia da Noiva em um só lugar. Aqui o cuidado vai do cabelo aos pés, da pele à mente.</p>
+    <p>Cada atendimento é feito com hora marcada, para você ser recebida sem pressa e viver um momento só seu.</p>
+    <ul class="pontos">
+      <li><b>Tudo em um só lugar:</b> cabelo, maquiagem, estética e terapias.</li>
+      <li><b>Atendimento com hora marcada,</b> para você aproveitar com calma.</li>
+      <li><b>Especial Dia da Noiva</b> e SPA DAY para presentear ou se presentear.</li>
+    </ul>
+    <p style="margin-top:30px"><a class="btn" href="#" data-zap>Quero agendar</a></p>
+  </div>
+</div></section>
+
+<section class="s servicos" id="servicos"><div class="wrap">
+  <div class="topo"><span class="tag">Serviços</span><h2>Cuidados para o corpo, a pele e a <span class="ouro">mente</span></h2><p>Escolha um serviço e peça direto pelo WhatsApp, ou adicione na flor lá em cima para montar o seu ritual.</p></div>
+  <div class="cards" id="cards"></div>
+</div></section>
+
 <section class="s spaday" id="spaday"><div class="wrap">
   <img src="/static/img/spa-day.jpg" alt="Banheira de spa com espumante rosé e pétalas" loading="lazy">
   <div>
@@ -144,9 +249,63 @@ footer{background:var(--tinta);text-align:center;padding:26px;color:#cdb98e;font
   </div>
 </div></section>
 
-<section class="s fotos"><div class="wrap"><h2>Resultados que <span class="ouro">encantam</span></h2>
+<section class="s como"><div class="wrap">
+  <div class="topo"><span class="tag">Como funciona</span><h2>Agendar é simples e <span class="ouro">rápido</span></h2></div>
+  <div class="passos3">
+    <div><b>1</b><h3>Escolha</h3><p>Monte o seu ritual na flor ou escolha um serviço da lista.</p></div>
+    <div><b>2</b><h3>Envie</h3><p>Um toque e o WhatsApp abre com a sua mensagem pronta.</p></div>
+    <div><b>3</b><h3>Relaxe</h3><p>Nossa equipe responde com os horários e você só precisa chegar.</p></div>
+  </div>
+</div></section>
+
+<section class="s noivas" id="noivas"><div class="wrap">
+  <div>
+    <span class="tag">Dia da Noiva</span>
+    <h2>O seu grande dia começa <span class="ouro">antes da cerimônia</span></h2>
+    <p class="l">Cabelo, maquiagem e cuidados para você chegar tranquila, linda e com tempo para curtir cada detalhe. Fale com a gente e conte a data do seu casamento.</p>
+    <a class="btn" href="#" data-msg="Olá! Sou noiva e quero saber sobre o Especial Dia da Noiva no It 119 Spa da Beleza. Meu casamento será em: ">Reservar a minha data</a>
+  </div>
+  <div class="tres">
+    <img src="/static/img/foto-08.jpg" alt="Noiva com trança lateral e buquê no jardim" loading="lazy">
+    <img src="/static/img/foto-11.jpg" alt="Noiva com penteado trançado e buquê de copos-de-leite" loading="lazy">
+    <img src="/static/img/foto-07.jpg" alt="Noiva de véu diante de uma caminhonete azul" loading="lazy">
+  </div>
+</div></section>
+
+<section class="s fotos" id="galeria"><div class="wrap"><h2>Resultados que <span class="ouro">encantam</span></h2>
   <div class="mural" id="mural"><button aria-label="Ampliar foto 1"><img src="/static/img/foto-01.jpg" alt="Cliente de cabelo longo escuro e ondulado" loading="lazy"></button><button aria-label="Ampliar foto 2"><img src="/static/img/foto-02.jpg" alt="Cliente sorrindo com mechas loiras e ondas" loading="lazy"></button><button aria-label="Ampliar foto 3"><img src="/static/img/foto-03.jpg" alt="Cabelo preto com ondas brilhantes" loading="lazy"></button><button aria-label="Ampliar foto 4"><img src="/static/img/foto-04.jpg" alt="Cabelo castanho com luzes e ondas" loading="lazy"></button><button aria-label="Ampliar foto 5"><img src="/static/img/foto-05.jpg" alt="Cabelo liso longo e escuro" loading="lazy"></button><button aria-label="Ampliar foto 6"><img src="/static/img/foto-06.jpg" alt="Festa de casamento em preto e branco" loading="lazy"></button><button aria-label="Ampliar foto 7"><img src="/static/img/foto-07.jpg" alt="Noiva de véu com buquê diante de uma caminhonete azul" loading="lazy"></button><button aria-label="Ampliar foto 8"><img src="/static/img/foto-08.jpg" alt="Noiva com trança lateral e buquê no jardim" loading="lazy"></button><button aria-label="Ampliar foto 9"><img src="/static/img/foto-09.jpg" alt="Noiva abraçando seu cachorro branco" loading="lazy"></button><button aria-label="Ampliar foto 10"><img src="/static/img/foto-10.jpg" alt="Maquiagem da noiva no jardim" loading="lazy"></button><button aria-label="Ampliar foto 11"><img src="/static/img/foto-11.jpg" alt="Noiva com penteado trançado e buquê de copos-de-leite" loading="lazy"></button><button aria-label="Ampliar foto 12"><img src="/static/img/foto-12.jpg" alt="Cliente de cabelo longo escuro e ondulado no salão" loading="lazy"></button></div></div>
 </section>
+
+<section class="presente"><div class="wrap"><div class="caixa">
+  <div><span class="tag" style="color:var(--ouro2)">Para presentear</span><h2>Presenteie quem você ama com um <span class="ouro" style="background-image:linear-gradient(100deg,#f0d9a0,#fff,#f0d9a0)">SPA DAY</span></h2>
+  <p>Um dia de cuidado para mãe, amiga, noiva ou para você mesma. Fale com a gente e combinamos os detalhes.</p></div>
+  <a class="btn" href="#" data-msg="Olá! Quero presentear alguém com um SPA DAY. Como funciona?">Quero presentear</a>
+</div></div></section>
+
+<section class="s faq" id="duvidas"><div class="wrap">
+  <div class="topo"><span class="tag">Dúvidas</span><h2>Perguntas <span class="ouro">frequentes</span></h2></div>
+  <div class="lista">
+    <details><summary>Como faço para agendar?</summary><p>É só tocar em qualquer botão de WhatsApp do site. A mensagem já vai pronta e nossa equipe responde com os horários disponíveis.</p></details>
+    <details><summary>Preciso marcar horário?</summary><p>Sim. O atendimento é com hora marcada, para você ser recebida com toda a atenção.</p></details>
+    <details><summary>Posso escolher só alguns serviços?</summary><p>Pode. Monte o seu ritual na flor do início da página e escolha quantos serviços quiser. Se preferir o pacote completo, é só pedir o SPA DAY.</p></details>
+    <details><summary>O que está incluído no SPA DAY?</summary><p>Massagem relaxante, reflexologia dos pés, banho de sais, argila facial, pé e mão e escova.</p></details>
+    <details><summary>Vocês atendem noivas?</summary><p>Sim, temos o especial Dia da Noiva. Mande a data do seu casamento pelo WhatsApp para montarmos o seu atendimento.</p></details>
+    <details><summary>Onde fica e qual o horário?</summary><p>Ficamos na R. Tassinari, 119, Jardim Dona Luiza, em Jaguariúna-SP. Atendemos de terça a sexta, das 08:00 às 19:00, e aos sábados, das 08:00 às 17:30.</p></details>
+  </div>
+</div></section>
+
+<section class="s insta"><div class="wrap">
+  <span class="tag">Instagram</span>
+  <h2>Acompanhe o nosso <span class="ouro">dia a dia</span></h2>
+  <p>Mais de 4,5 mil pessoas já seguem o @it119spadabeleza. Veja bastidores, resultados e novidades.</p>
+  <div class="minis">
+    <a href="https://www.instagram.com/it119spadabeleza" target="_blank" rel="noopener" aria-label="Abrir Instagram"><img src="/static/img/foto-02.jpg" alt="" loading="lazy"></a>
+    <a href="https://www.instagram.com/it119spadabeleza" target="_blank" rel="noopener" aria-label="Abrir Instagram"><img src="/static/img/foto-03.jpg" alt="" loading="lazy"></a>
+    <a href="https://www.instagram.com/it119spadabeleza" target="_blank" rel="noopener" aria-label="Abrir Instagram"><img src="/static/img/foto-09.jpg" alt="" loading="lazy"></a>
+    <a href="https://www.instagram.com/it119spadabeleza" target="_blank" rel="noopener" aria-label="Abrir Instagram"><img src="/static/img/spa-day.jpg" alt="" loading="lazy"></a>
+  </div>
+  <a class="btn" href="https://www.instagram.com/it119spadabeleza" target="_blank" rel="noopener">Seguir @it119spadabeleza</a>
+</div></section>
 
 <section class="s visite" id="visite"><div class="wrap">
   <div>
@@ -174,7 +333,12 @@ footer{background:var(--tinta);text-align:center;padding:26px;color:#cdb98e;font
   </div>
 </div></section>
 </main>
-<footer>© <span id="ano"></span> It 119 Spa da Beleza</footer>
+<footer><div class="wrap fgrid">
+  <div><a class="logo" href="#topo"><b>IT<br>119</b>Spa da Beleza</a><p>Salão de beleza, spa day, terapias de bem-estar e Dia da Noiva em Jaguariúna-SP.</p></div>
+  <div><h4>Navegue</h4><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#spaday">SPA DAY</a><a href="#noivas">Noivas</a><a href="#galeria">Galeria</a><a href="#duvidas">Dúvidas</a></div>
+  <div><h4>Contato</h4><a href="#" data-zap>WhatsApp (19) 98722-0119</a><a href="tel:+551938671199">Telefone (19) 3867-1199</a><a href="https://www.instagram.com/it119spadabeleza" target="_blank" rel="noopener">@it119spadabeleza</a><p>R. Tassinari, 119, Jardim Dona Luiza<br>Jaguariúna-SP, 13912-682</p></div>
+  <div><h4>Horários</h4><p>Terça a sexta: 08:00 às 19:00</p><p>Sábado: 08:00 às 17:30</p><p>Domingo: fechado</p><p>Segunda: consulte no WhatsApp</p></div>
+</div><div class="wrap fim"><span>© <span id="ano"></span> It 119 Spa da Beleza. Todos os direitos reservados.</span><a href="#topo">Voltar ao topo ↑</a></div></footer>
 
 <a class="flut" id="flut" href="#" data-zap aria-label="WhatsApp">
   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-1.9 1.3-.5.1-1.1.1-1.8-.1a16 16 0 0 1-5.6-4.9c-.5-.7-1.4-1.9-1.4-3.2s.7-1.9.9-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .6l-.4.6c-.1.2-.3.3-.1.6.6 1 1.4 1.8 2.4 2.3.3.2.5.1.6-.1l.7-.9c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.4.1.2.1.8-.1 1.4Z"/></svg>
@@ -239,6 +403,20 @@ const lis=[...ol.children],io=new IntersectionObserver(es=>es.forEach(e=>{if(e.i
   ol.style.setProperty("--h",(lis.filter(l=>l.classList.contains("v")).length-1)/(lis.length-1)*92+"%")}}),{threshold:.8});
 lis.forEach(l=>io.observe(l));
 $("#spaBtn").onclick=()=>{toggleSpa(true);open(url(msg()),"_blank")};
+/* cards de serviços */
+const DS=["Cabelo e maquiagem para o dia a dia, festas e eventos.","Cuidado completo para mãos e pés, com acabamento impecável.","Imersão relaxante com sais para desacelerar corpo e mente.","Massagem para aliviar a tensão e renovar as energias.","Ritual de relaxamento para os pés, ideal para fechar o dia.","Massagem em pontos dos pés para promover bem-estar.","Terapia com pontos da orelha para equilíbrio e bem-estar.","Cuidado para deixar a pele limpa, leve e renovada."];
+$("#cards").innerHTML=S.map((n,i)=>`<article class="card"><em>${String(i+1).padStart(2,"0")}</em><h3>${n}</h3><p>${DS[i]}</p><div class="ac"><a href="${url(`Olá! Tenho interesse em: ${n}. Pode me passar horários e valores?`)}" target="_blank" rel="noopener">Pedir no WhatsApp</a><button data-i="${i}">Adicionar à flor</button></div></article>`).join("");
+$("#cards").onclick=e=>{const b=e.target.closest("button[data-i]");if(!b)return;spa=false;sel.add(+b.dataset.i);draw();b.textContent="Na sua flor ✓"};
+document.querySelectorAll("[data-msg]").forEach(a=>{a.href=url(a.dataset.msg);a.target="_blank";a.rel="noopener"});
+/* menu, progresso, contadores e entrada suave */
+$("#burger").onclick=()=>{const o=$("#nav").classList.toggle("open");$("#burger").setAttribute("aria-expanded",o)};
+$("#menu").onclick=e=>e.target.closest("a")&&$("#nav").classList.remove("open");
+addEventListener("scroll",()=>{const h=document.documentElement;$("#prog").style.width=h.scrollTop/(h.scrollHeight-h.clientHeight)*100+"%"},{passive:true});
+const cio=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;cio.unobserve(e.target);const alvo=+e.target.dataset.n;let t0;
+  const f=t=>{t0??=t;const q=Math.min((t-t0)/1300,1);e.target.textContent=Math.round(alvo*q).toLocaleString("pt-BR");if(q<1)requestAnimationFrame(f)};requestAnimationFrame(f)}),{threshold:.6});
+document.querySelectorAll("[data-n]").forEach(n=>cio.observe(n));
+const rvo=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");rvo.unobserve(e.target)}}),{threshold:.08});
+document.querySelectorAll("section.s .wrap>*,.presente .caixa").forEach(el=>{el.classList.add("rv");rvo.observe(el)});
 /* galeria com ampliação */
 const FT=[...document.querySelectorAll("#mural img")],lb=$("#lb");let cur=0;
 const abre=i=>{cur=(i+FT.length)%FT.length;const im=lb.querySelector("img");im.src=FT[cur].src;im.alt=FT[cur].alt;lb.classList.add("on")};
